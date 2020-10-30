@@ -18,7 +18,13 @@
           "waitTime": 30
         },
 
-        {{ local_module "/modules/wait.stage" }}
+        {{ local_module "/modules/wait.stage" }},
+
+        {{ module "stage.wait.module" 
+           "name" "my module wait stage"
+           "refId" "wait 3"
+           "waitTime" "42"
+        }}
       ],
       "triggers": [],
       "updateTs": "1597712087000"
