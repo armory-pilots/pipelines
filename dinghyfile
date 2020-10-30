@@ -11,12 +11,14 @@
       "stages": [
         {
           "isNew": true,
-          "name": "Wait - updated Oct 26th",
+          "name": "Wait - stage 1",
           "refId": "1",
           "requisiteStageRefIds": [],
           "type": "wait",
           "waitTime": 30
-        }
+        },
+
+        {{ local_module "/modules/wait.stage" }}
       ],
       "triggers": [],
       "updateTs": "1597712087000"
