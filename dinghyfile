@@ -20,7 +20,7 @@
 
         {{ local_module "/modules/wait.stage" }},
 
-        {{ module "wait.stage" 
+        {{ module "wait.stage.v1" 
            "name" "my module wait stage"
            "refId" "wait 4"
            "waitTime" "8"
