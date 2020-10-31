@@ -23,7 +23,7 @@
         {{ module "wait.stage" 
            "name" "my module wait stage"
            "refId" "wait 4"
-           "waitTime" "42"
+           "waitTime" "8"
         }}
       ],
       "triggers": [],
