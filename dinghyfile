@@ -22,7 +22,7 @@
 
         {{ module "wait.stage" 
            "name" "my module wait stage"
-           "refId" "wait 3"
+           "refId" "wait 4"
            "waitTime" "42"
         }}
       ],
